@@ -7,8 +7,8 @@
     --current-color: #124559; /*light blue*/
     --lightback-color: #aec3b0;
 
-    --heading-font: 'Katibeh', cursive;
-    --paragraph-font: 'Prata', serif;
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Poppins', sans-serif;
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -41,7 +41,7 @@ header, footer {
     padding-right: 1em;
 }
 h2 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 br.responsive{
@@ -89,8 +89,9 @@ h2 {
     letter-spacing: 1pt;
     color: #124559;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: 14px;
     font-family: var(--paragraph-font);
+    font-weight: bold;
 }
 
 nav ul li a:hover{background-color: #01161e;}
@@ -116,9 +117,9 @@ nav button {
 }
 
 nav {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
     color: var(--background-color);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav ul {
@@ -140,6 +141,7 @@ nav a:hover {
 
 footer {
     font-family: var(--paragraph-font);
+    font-size: 14px;
 }
 
 footer a:link, footer a:visited {
