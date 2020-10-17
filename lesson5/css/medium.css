@@ -6,7 +6,34 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
         
     }
-        
+    main {
+        max-width: 960px;
+    }
+    #contact-information {
+        display: flex;
+        padding: 1em 35em;
+    }
+    .contact-details {
+        flex-basis: 40em;
+    }
+    .map {
+        flex-basis: 20em;
+    }
+    header img {
+        float: left;
+        max-width: 120px;
+    }
+    .weather-summary-overlay {
+        font-family: var(--paragraph-font);
+        padding: 0 60px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        background-color: #eff6e0;
+        color: #01161e;
+        line-height: 2.0em;
+        opacity: 0.9;
+      }
     nav button {display: none;}
         
     nav ul.hide {display: block;}
