@@ -126,7 +126,7 @@ main ul#forecast-list img {
   }
 .weather-summary-overlay {
     font-family: var(--paragraph-font);
-    padding: 0 60px;
+    padding: 20px 60px;
     position: relative;
     background-color: #eff6e0;
     color: #01161e;
