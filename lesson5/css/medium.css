@@ -10,8 +10,8 @@
         max-width: 960px;
     }
     #contact-information {
-        display: flex;
-        padding: 1em 35em;
+        /*display: flex;*/
+        padding: 2em 0em 3em 0em;
     }
     .contact-details {
         flex-basis: 40em;

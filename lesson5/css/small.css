@@ -67,7 +67,7 @@ header img {
 .heading h1 {
     color: #01161e;
     font-family: var(--heading-font);
-    margin: 0 0 0 17px;
+    margin: 10px 0 0 0 0;
 }
 h2 {
     font-family: var(--heading-font);
@@ -154,6 +154,7 @@ main ul#forecast-list img {
   .lastInfo {
     background-color: #eff6e0;
     width: 100%;
+    padding: 10px;
 }
 footer {
     background-color:#598392;
@@ -167,7 +168,7 @@ footer {
   }
   section#contact-information iframe {
     width: 100%;
-    max-width: 330px;
+    max-width: 400px;
     height: 190px;
     border: 1px solid #6090dc;
     display: inline-block;
