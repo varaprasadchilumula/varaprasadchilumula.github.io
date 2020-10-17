@@ -228,7 +228,7 @@ footer {
 }
 
 footer a:link, footer a:visited {
-    color: var(--accent1-color);
+    color: #124559;
 }
 
 .clearfix:after {
