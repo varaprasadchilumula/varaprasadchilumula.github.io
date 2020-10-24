@@ -190,6 +190,18 @@ footer {
     float: right;
     margin: 60px 20px;
 }
+.herosection {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.heroimage {
+    position: relative;
+}
+
+.heroimage img {
+    object-fit: cover;
+    width: 100%;
+}
 .fridayalert {
     margin: 0 auto;
     max-width: 100%;
