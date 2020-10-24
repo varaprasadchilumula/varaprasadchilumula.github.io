@@ -36,4 +36,20 @@
     h2 {
         font-size: 28px;
     }
+    .topsection{
+        margin: 0 auto;
+        max-width: 100%;
+        /*padding: 1.8em 10em;*/
+    }
+    .weather-summary-overlay {
+        font-family: "Poppins", sans-serif;
+        padding: 0 60px;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        background-color: #eff6e0;
+        color: #01161e;
+        line-height: 2.0em;
+        opacity: 0.9;
+    }
 }
