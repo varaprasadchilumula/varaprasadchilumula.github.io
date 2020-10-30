@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Varaprasad Chilumula's Assignment Portal in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
+
+  <title>WDD 230 Lesson 7 | Progressive Loading of Images | Varaprasad Chilumula</title>
+</head>
+<body>
+  <header>
+    <h1>W07 Progressive Loading of Images</h1>
+</header>
+ <main>
+  <picture><img data-src="images/idaho-weather-img1.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+  <picture><img data-src="images/idaho-weather-img2.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+  <picture><img data-src="images/idaho-weather-img3.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+  <picture><img data-src="images/idaho-weather-img4.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+  <picture><img data-src="images/idaho-weather-img5.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+  <picture><img data-src="images/idaho-weather-img6.jpg" src="images/placeholder.jpg" alt="Idaho Weather"></picture>
+ </main>
+ <footer>
+   <p>&copy; <span id="currentYear"></span> | Varaprasad Chilumula | Hyderabad, India | <a href="https://www.byui.edu/online">BYUI Online Learning</a> | <a href="../index.html">Back to Main
+                    Portal</a></p>
+   <p class="highlighted">Last modified: <span id="lastModified"></span></p>
+ </footer>
+ <script src="js/lastModified.js"></script>
+ <script src="js/currentYear.js"></script>
+ <script src="js/loadimages.js"></script>
+</body>
+</html>
