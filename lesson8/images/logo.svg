@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="149" height="106.333" viewBox="0 0 149 106.333">
+  <g id="logo" transform="translate(-0.805 -1.608)">
+    <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="25" cy="25.5" rx="25" ry="25.5" transform="translate(80.456 21.101)" fill="#aec3b0"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="7.699" height="14.757" rx="3.85" transform="matrix(0.998, -0.07, 0.07, 0.998, 99.037, 2.145)" fill="#aec3b0"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="7.699" height="14.757" rx="3.85" transform="translate(131.811 8.914) rotate(43)" fill="#aec3b0"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="7.699" height="14.757" rx="3.85" transform="translate(149.805 38.018) rotate(90)" fill="#aec3b0"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="7.699" height="14.757" rx="3.85" transform="translate(143.601 69.117) rotate(129)" fill="#aec3b0"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="7.699" height="14.757" rx="3.85" transform="translate(87.227 23.079) rotate(129)" fill="#aec3b0"/>
+    <path id="Union_1" data-name="Union 1" d="M28.843,90v0l-.321,0a28.4,28.4,0,0,1-2.737-56.68q-.146-1.481-.147-3a30.467,30.467,0,0,1,59.55-8.928,23.351,23.351,0,0,1,34.028,25.865q.479-.021.964-.021a21.38,21.38,0,0,1,1.6,42.707V90Z" transform="translate(0.805 17.941)" fill="#124559"/>
+    <text id="_Climate_Today" data-name=" Climate 
+Today" transform="translate(19.805 67.941)" fill="#aec3b0" font-size="21" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0" xml:space="preserve"> Climate </tspan><tspan fill="#eff6e0" font-size="33"><tspan x="0" y="26">Today</tspan></tspan></text>
+  </g>
+</svg>
