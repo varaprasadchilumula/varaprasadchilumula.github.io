@@ -280,8 +280,6 @@ nav a:hover {
 footer {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
-    width: 100%;
-    max-width:960px;
 }
 
 footer a:link, footer a:visited {
