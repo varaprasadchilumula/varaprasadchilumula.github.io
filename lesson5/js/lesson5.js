@@ -10,8 +10,3 @@ function updateBox(){
     
     document.getElementById('updated').innerHTML = days[d.getDay()] + ', ' + monthDay + ' ' + monthNames[d.getMonth()]+ ' '+ date;
 }
-
-function toggleMenu() {
-    
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
