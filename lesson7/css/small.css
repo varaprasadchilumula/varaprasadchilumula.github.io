@@ -222,6 +222,16 @@ footer {
     background-color: #aec3b0;
     font-size: small;
 }
+.map {
+    width: 100%;
+    height: auto;
+    max-width: 400px; 
+}
+.footerarea {
+    max-width:960px;
+    width: 100%;
+    margin: 0 auto;
+}
 nav ul li a:hover{background-color: #01161e;}
 
 nav ul.hide {display: none;}
@@ -270,6 +280,8 @@ nav a:hover {
 footer {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    width: 100%;
+    max-width:960px;
 }
 
 footer a:link, footer a:visited {

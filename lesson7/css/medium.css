@@ -90,4 +90,7 @@
     .lazyloadgallery h2:nth-child(1) {
         grid-column: 1 / span 2;
     }
+    .map {
+        float: left;  
+    }
 }
