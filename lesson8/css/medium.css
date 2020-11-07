@@ -17,7 +17,7 @@
         flex-basis: 40em;
     }
     .map {
-        flex-basis: 20em;
+        float: left;  
     }
     header img {
         float: left;

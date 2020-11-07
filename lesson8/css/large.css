@@ -69,5 +69,8 @@
     }
     .lazyloadgallery figure:hover {
 		box-shadow: 0px 0px 11px 4px #d5d5d5;
-	}
+    }
+    form label.top input:required {
+        border-top: #598392 solid 6px;
+    }
 }
