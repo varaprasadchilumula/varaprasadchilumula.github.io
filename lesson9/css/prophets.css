@@ -42,7 +42,7 @@ footer a {
 /* Start Cards Section */
 .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-content: center;
     width: 100%;
@@ -53,23 +53,19 @@ footer a {
     padding: 0.4em;
     text-align: center;
 }
-.cards h2 {
-    color: #E0A276;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-} 
 /* End Cards Section */
+
 @media only screen and (min-width: 600px){
 .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     width: 100%;}    
 }
 @media only screen and (min-width: 960px) {
-        .cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 100%;
-        }
+    .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    }
 }
 /* Main Section and Lazy Loading Images */
 
