@@ -24,12 +24,12 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Preston</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <section class="weather-summary">
@@ -42,8 +42,15 @@
     <main>
         <section class="topsection">
             <h2 id="forecast">Five-Day Forecast</h2>
-                <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us"
-                data-label_1="PRESTON" data-label_2="WEATHER" data-days="5" data-theme="pure">PRESTON WEATHER</a>
+            <div class="weathertable">
+            <ul id="forecast-list">
+                <li><h4>Monday</h4><img src="images/sun.svg" alt="Sunny weather"><br>89º F</li>
+                <li><h4>Tuesday</h4><img src="images/sun.svg" alt="Sunny weather"><br>87º F</li>
+                <li><h4>Wednesday</h4><img src="images/sun.svg" alt="Sunny weather"><br>78º F</li>
+                <li><h4>Thursday</h4><img src="images/sun.svg" alt="Sunny weather"><br>75º F</li>
+                <li><h4>Friday</h4><img src="images/sun.svg" alt="Sunny weather"><br>72º F</li>
+            </ul>
+            </div>
         </section>
         <article>
         <div class="body-img"><img src="images/festival-of-lights.png" alt="Preston photo"></div>
