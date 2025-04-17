@@ -1,41 +1,107 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Varaprasad Chilumula's Assignment Portal in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
-  <title>WDD 230 Assignment Portal | Varaprasad Chilumula</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varaprasad | Senior UX Designer</title>
+  <link rel="stylesheet" href="/vendors/Plugins/owlcarousel.css">
+  <link rel="stylesheet" href="/vendors/Plugins/owlcarousel-theme.css">
+  <link rel="stylesheet" href="/vendors/Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <header>
-    <img src="images/photo.jpg" alt="Profile Photo of Varaprasad Chilumula">
-    <h1>Varaprasad Chilumula</h1>
-</header>
- <main>
-   <h2>WDD 230: Assignment Portal</h2>
-   <ul style="line-height: 50px; font-size: 14px;">
-     <li>Lesson 02: <a href="lesson2/design-principles.html">Design Principles Document</a></li>
-     <li>Lesson 03: <a href="lesson3/index.html">Weather Website Plan Document</a></li>
-     <li>Lesson 04: <a href="lesson4/preston-4.html">Preston Town page</a></li>
-     <li>Lesson 05: <a href="lesson5/preston-5.html">Preston Town page</a></li>
-     <li>Lesson 06: <a href="lesson6/preston-6.html">Responsive Images and Font</a></li>
-     <li>Lesson 07: <a href="lesson7/lazyload.html">Progressive Loading of Images</a> | <a href="lesson7/gallery-7.html">The Gallery Page</a></li>
-     <li>Lesson 08: <a href="lesson8/tablebuild.html">Activity: Table Build</a> | <a href="lesson8/stormcenter.html">Storm Center Page</a></li>
-     <li>Lesson 09: <a href="lesson9/prophets.html">Latter-day Prophets</a> | <a href="lesson9/index.html">Home Page</a></li>
-     <li>Lesson 10: <a href="#">Comming Soon!</a></li>
-     <li>Lesson 11: <a href="#">Comming Soon!</a></li>
-     <li>Lesson 12: <a href="#">Comming Soon!</a></li>
-     <li>Lesson 13: <a href="#">Comming Soon!</a></li>
-     <li>Lesson 14: <a href="#">Comming Soon!</a></li>
-   </ul>
- </main>
- <footer>
-   <p>&copy; <span id="currentYear"></span> | Varaprasad Chilumula | Hyderabad, India | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-   <p class="highlighted">Last modified: <span id="lastModified"></span></p>
- </footer>
- <script src="js/lastModified.js"></script>
- <script src="js/currentYear.js"></script>
+
+  <nav class="vc_primaryNavBar navbar navbar-expand-xl navbar-light fixed-top" id="vc_primaryNavBar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="/Sass/images/nw_Logo.svg" id="nw_BrandLogo" alt="Newwe logo" class="img-fluid nw_BrandLogo"> -->
+        Varaprsad
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-xl-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="form-check form-switch ms-4">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="vc_bodyContainer">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-4 text-center">
+          <img src="./Images/VC.png" alt="Varaprasad Chilumula" class="img-fluid">
+        </div>
+        <div class="col-8">
+          <h1 class="Header1 vc_Medium">Varaprasad Chilumula: Designing Intuitive <span class="">Digital
+              Experiences</span></h1>
+          <p class="pt-2">Lead UI/UX Designer with 12+ years of experience crafting user-centered solutions for web and
+            mobile.</p>
+          <div>
+            <button class="vcBtn">See My Work</button>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12">
+          <div class="owl-carousel carousel-main my-5">
+            <img src="/Images/vc_photoshop-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_acrobat-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_indesign-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_xd-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_figma-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_canva-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_coreldraw-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_Sketch-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_draw-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_html3-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_html5-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_wordpress-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_dw-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_bootstrap-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_camtasia-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_github-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_visualstudio-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_notepad-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_filezilla-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_illustrator-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_notion-lt.svg" alt="" class="img-fluid" />
+            <img src="/Images/vc_slack-lt.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/vendors/Plugins/jquery.min.js"></script>
+  <script src="/vendors/Plugins/owlcarousel.js"></script>
+  <script type="module" src="/vendors/Bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
