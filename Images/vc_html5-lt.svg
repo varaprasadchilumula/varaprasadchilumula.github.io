@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="html5-lt" transform="translate(0 0.725)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="45" height="45" rx="10" transform="translate(0.5 -0.225)" fill="none" stroke="#e6e6e6" stroke-width="1"/>
+    <g id="html-icon" transform="translate(11.684 10.185)">
+      <path id="Path_156" data-name="Path 156" d="M21.835,0,19.846,22.284,10.9,24.763,1.987,22.288,0,0Z" fill="#e44d26" fill-rule="evenodd"/>
+      <path id="Path_157" data-name="Path 157" d="M54.17,30.087l7.226-2L63.1,9.04H54.17Z" transform="translate(-43.254 -7.218)" fill="#f16529" fill-rule="evenodd"/>
+      <path id="Path_158" data-name="Path 158" d="M23.149,25.343h3.867V22.61H20.16l.064.734.671,7.533h6.116V28.142H23.4l-.25-2.8Zm.615,6.9H21.02l.383,4.292L27,38.089l.012,0V35.241l-.012,0-3.045-.822-.2-2.18Z" transform="translate(-16.097 -18.054)" fill="#ebebeb" fill-rule="evenodd"/>
+      <path id="Path_159" data-name="Path 159" d="M54.13,30.868H57.5l-.316,3.545-3.049.822v2.843l5.6-1.554.04-.461.643-7.2.066-.734H54.13v2.735Zm0-5.54v.006h6.6l.054-.615.125-1.386.064-.734H54.13v2.729Z" transform="translate(-43.222 -18.046)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
